@@ -1,4 +1,4 @@
-<img src="https://i.pinimg.com/originals/5d/54/fb/5d54fbeb528030a3584d108958d2159b.png?raw=true" width="150"/>
+<img src="https://images.prismic.io/macstadium/7c04dd5d-2845-488d-99c1-9cf8cc4a299c_shopify-logo-full-white.png?auto=compress,format?raw=true" width="150"/>
 
 # Shopify CLI
 <a href="http://twitter.com/ShopifyDevs"><img src="https://img.shields.io/twitter/follow/ShopifyDevs?style=flat-square" alt="Twitter Followers"></a>
