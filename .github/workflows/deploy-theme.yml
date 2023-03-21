@@ -22,4 +22,4 @@ jobs:
           # Password generated from Theme Access app
           SHOPIFY_CLI_THEME_TOKEN: "shptka_d2d9e9279859cada1c33cda8bb6924a3"
           SHOPIFY_CLI_TTY: 0
-        run: shopify theme push --path C:\laragon\www\shopify\peter-devtest --theme 145859379479
+        run: shopify theme push --path ./peter-devtest --theme 145859379479
