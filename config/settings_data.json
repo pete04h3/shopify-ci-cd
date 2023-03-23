@@ -129,6 +129,10 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
+    "checkout_header_image": "shopify:\/\/shop_images\/womans-hands-cups.jpg",
+    "checkout_logo_image": "shopify:\/\/shop_images\/bihyou-logo_b702bf61-2a20-462c-8d13-e8b5ca20ed1e.png",
+    "checkout_accent_color": "#acacac",
+    "checkout_button_color": "#121212",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
