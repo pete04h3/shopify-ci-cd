@@ -8,15 +8,25 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to bihyou!",
+            "text": "Be your self - Your individuality is what makes you beautiful and capable of achieving greatness. Trust in yourself and your abilities.",
             "text_alignment": "center",
             "color_scheme": "background-2",
+            "link": ""
+          }
+        },
+        "f724e816-8c42-40f8-9ec3-effd879e61c4": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to bihyou!",
+            "text_alignment": "center",
+            "color_scheme": "accent-1",
             "link": ""
           }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "f724e816-8c42-40f8-9ec3-effd879e61c4"
       ],
       "settings": {
       }
