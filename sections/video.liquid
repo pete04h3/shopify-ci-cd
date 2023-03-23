@@ -104,7 +104,7 @@
           <iframe
             src="https://www.youtube.com/embed/{{ section.settings.video_url.id }}?enablejsapi=1"
             class="js-youtube"
-            allow="autoplay; encrypted-media; loop; muted;"
+            allow="autoplay; encrypted-media"
             allowfullscreen
             title="{{ section.settings.description | escape }}"
           ></iframe>
@@ -112,7 +112,7 @@
           <iframe
             src="https://player.vimeo.com/video/{{ section.settings.video_url.id }}"
             class="js-vimeo"
-            allow="autoplay; encrypted-media; loop; muted;"
+            allow="autoplay; encrypted-media"
             allowfullscreen
             title="{{ section.settings.description | escape }}"
           ></iframe>

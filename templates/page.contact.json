@@ -3,8 +3,51 @@
     "main": {
       "type": "main-page",
       "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "8a3b6dc4-61f1-44eb-9a96-5f25c127592b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18284505661719__8a3b6dc4-61f1-44eb-9a96-5f25c127592b-16795640047aa395c3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Dont hesitate to reach out!<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--18284505661719__8a3b6dc4-61f1-44eb-9a96-5f25c127592b-16795640047aa395c3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At bihyou! we are trying to embrace all requests and general messages as up most importance. We will get back to you as soon as possible.<\/p>"
+          }
+        },
+        "template--18284505661719__8a3b6dc4-61f1-44eb-9a96-5f25c127592b-16795640047aa395c3-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18284505661719__8a3b6dc4-61f1-44eb-9a96-5f25c127592b-16795640047aa395c3-0",
+        "template--18284505661719__8a3b6dc4-61f1-44eb-9a96-5f25c127592b-16795640047aa395c3-1",
+        "template--18284505661719__8a3b6dc4-61f1-44eb-9a96-5f25c127592b-16795640047aa395c3-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
       }
     },
     "form": {
@@ -20,6 +63,7 @@
   },
   "order": [
     "main",
+    "8a3b6dc4-61f1-44eb-9a96-5f25c127592b",
     "form"
   ]
 }

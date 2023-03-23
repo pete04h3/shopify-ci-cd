@@ -1,49 +1,215 @@
 {
   "sections": {
-    "91020955-70c2-470d-9359-85644c4bcf86": {
-      "type": "video",
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "BIHYOU!",
+            "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "Organic    |    Recycled    |    Quality",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "View Collections",
+            "button_link_2": "shopify:\/\/collections",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
       "settings": {
-        "heading": "",
-        "heading_size": "h0",
-        "cover_image": "shopify:\/\/shop_images\/202697767-4.webp",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=Ez6ODtGpL1w",
-        "description": "splash-video",
+        "image": "shopify:\/\/shop_images\/womans-bust-hand-shoulder.jpg",
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "d8263578-bf4a-4f4a-b503-568964831a34": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18284505596183__d8263578-bf4a-4f4a-b503-568964831a34-16795640047aa395c3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h2>- Be who you were born to be -<br\/><strong>bihyou!<\/strong><\/h2>",
+            "heading_size": "h1"
+          }
+        },
+        "template--18284505596183__d8263578-bf4a-4f4a-b503-568964831a34-16795640047aa395c3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choosing organic sustainable skin care means taking an active role in protecting your health and the planet. By supporting eco-friendly and socially responsible practices, you are helping to reduce the carbon footprint of the beauty industry, while also supporting fair labor practices and the use of renewable resources.<\/p>"
+          }
+        },
+        "template--18284505596183__d8263578-bf4a-4f4a-b503-568964831a34-16795640047aa395c3-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18284505596183__d8263578-bf4a-4f4a-b503-568964831a34-16795640047aa395c3-0",
+        "template--18284505596183__d8263578-bf4a-4f4a-b503-568964831a34-16795640047aa395c3-1",
+        "template--18284505596183__d8263578-bf4a-4f4a-b503-568964831a34-16795640047aa395c3-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
         "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured products",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "uppercase",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "896c3ea1-26e2-4ca0-835d-3f892f5dea1b": {
+      "type": "collage",
+      "blocks": {
+        "template--18284505596183__896c3ea1-26e2-4ca0-835d-3f892f5dea1b-167956431777412cdd-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cosmetic-containers.jpg"
+          }
+        },
+        "template--18284505596183__896c3ea1-26e2-4ca0-835d-3f892f5dea1b-167956431777412cdd-1": {
+          "type": "product",
+          "settings": {
+            "product": "asics-tiger-gel-lyte-v-30-years-of-gel-pack",
+            "second_image": false
+          }
+        },
+        "template--18284505596183__896c3ea1-26e2-4ca0-835d-3f892f5dea1b-167956431777412cdd-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "adidas"
+          }
+        }
+      },
+      "block_order": [
+        "template--18284505596183__896c3ea1-26e2-4ca0-835d-3f892f5dea1b-167956431777412cdd-0",
+        "template--18284505596183__896c3ea1-26e2-4ca0-835d-3f892f5dea1b-167956431777412cdd-1",
+        "template--18284505596183__896c3ea1-26e2-4ca0-835d-3f892f5dea1b-167956431777412cdd-2"
+      ],
+      "settings": {
+        "heading": "Selected products & collections",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "8ca3dc43-eada-4a8a-87c3-09d884fe667a": {
-      "type": "featured-collection",
+    "7afbaea2-f0c7-4264-88db-c9d3d0d20a3d": {
+      "type": "image-banner",
+      "blocks": {
+        "template--18284505596183__7afbaea2-f0c7-4264-88db-c9d3d0d20a3d-167956460627f75e42-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "20% Discount!",
+            "heading_size": "h1"
+          }
+        },
+        "template--18284505596183__7afbaea2-f0c7-4264-88db-c9d3d0d20a3d-167956460627f75e42-1": {
+          "type": "text",
+          "settings": {
+            "text": "Get a discount on your first purchase at bihyou! Join our newsletter to get your coupon",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "template--18284505596183__7afbaea2-f0c7-4264-88db-c9d3d0d20a3d-167956460627f75e42-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18284505596183__7afbaea2-f0c7-4264-88db-c9d3d0d20a3d-167956460627f75e42-0",
+        "template--18284505596183__7afbaea2-f0c7-4264-88db-c9d3d0d20a3d-167956460627f75e42-1",
+        "template--18284505596183__7afbaea2-f0c7-4264-88db-c9d3d0d20a3d-167956460627f75e42-2"
+      ],
       "settings": {
-        "title": "Sale",
-        "heading_size": "h0",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "men",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": true,
-        "show_view_all": true,
-        "view_all_style": "link",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 100,
-        "padding_bottom": 100
+        "image": "shopify:\/\/shop_images\/one-hand-lathers-the-other-with-hand-lotion.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     }
   },
   "order": [
-    "91020955-70c2-470d-9359-85644c4bcf86",
-    "8ca3dc43-eada-4a8a-87c3-09d884fe667a"
+    "image_banner",
+    "d8263578-bf4a-4f4a-b503-568964831a34",
+    "featured_collection",
+    "896c3ea1-26e2-4ca0-835d-3f892f5dea1b",
+    "7afbaea2-f0c7-4264-88db-c9d3d0d20a3d"
   ]
 }
