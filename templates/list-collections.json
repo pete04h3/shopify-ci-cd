@@ -2,10 +2,16 @@
   "sections": {
     "main": {
       "type": "main-list-collections",
+      "custom_css": [
+        ".card .media {height: 100%;}",
+        ".card__inner {background: transparent;}",
+        ".card__media .media {display: flex; justify-content: center; align-items: center; padding: 10px; position: relative;}",
+        "img {width: auto; height: auto; max-width: 100%; max-height: 100%; position: relative;}"
+      ],
       "settings": {
-        "title": "Collections",
+        "title": "Associated brands",
         "sort": "alphabetical",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "columns_desktop": 4,
         "columns_mobile": "1"
       }
